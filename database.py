@@ -12,7 +12,16 @@ _pool = None
 async def get_pool():
     global _pool
     if _pool is None:
-        _pool = await asyncpg.create_pool(DB_URL, ssl="require", min_size=2, max_size=10)
+        _pool = await asyncpg.create_pool(
+            host="aws-0-eu-west-1.pooler.supabase.com",
+            port=5432,
+            user="postgres.hwvonitemebjoxkclfin",
+            password="shluhaebuchaya123.",
+            database="postgres",
+            ssl="require",
+            min_size=2,
+            max_size=10,
+        )
     return _pool
 
 
