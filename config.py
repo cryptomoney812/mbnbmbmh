@@ -5,7 +5,7 @@ BOT_TOKEN = "8657363091:AAH_HQPe9--4CoxpeQvcRuTSsSDPYiiScaY"
 ADMIN_IDS = [6451508865]  # вставь свой Telegram ID
 
 # ─── Supabase (для хранения найденных контактов) ──────────────────────────────
-DB_URL = "postgresql://postgres.hwvonitemebjoxkclfin:[75RszLFY*XwMmUa@HOST]@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
+DB_URL = "postgresql://postgres.hwvonitemebjoxkclfin:[shluhaebuchaya123.]@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
 
 # ─── Лимиты по уровням ────────────────────────────────────────────────────────
 LEVEL_LIMITS = {
